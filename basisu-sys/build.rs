@@ -3,10 +3,10 @@ use std::path::PathBuf;
 use std::env;
 
 fn main() {
-    // cc::Build::new()
-	// 	.cpp(true)
-    //     .file("transcoder/basisu_transcoder.cpp")
-    //     .compile("libbasisu_transcoder.a");
+    cc::Build::new()
+		.cpp(true)
+        .file("vendor/transcoder/basisu_transcoder.cpp")
+        .compile("libbasisu_transcoder.a");
 
     let bindings = bindgen::Builder::default()
         .header("wrapper.hpp")

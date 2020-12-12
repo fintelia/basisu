@@ -1,2 +1,2 @@
 
-#include "transcoder/basisu_transcoder.h"
+#include "vendor/transcoder/basisu_transcoder.h"
