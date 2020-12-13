@@ -15,5 +15,5 @@ pub mod basisu {
 	pub use crate::inner::root::basisu::*;
 }
 pub mod basist {
-	pub use crate::inner::root::basisu::*;
+	pub use crate::inner::root::basist::*;
 }
