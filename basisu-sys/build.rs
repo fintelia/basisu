@@ -5,6 +5,7 @@ use std::env;
 fn main() {
     cc::Build::new()
 		.cpp(true)
+		.warnings(false)
         .file("vendor/transcoder/basisu_transcoder.cpp")
         .compile("libbasisu_transcoder.a");
 
